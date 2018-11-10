@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+@font-face {
+    font-family: 'Proxima nova';
+    src: url('../fonts/proxima_nova_regular.otf') format('opentype'),
+    url('../fonts/proxima_nova_regular.woff2') format('woff2'),
+    url('../fonts/proxima_nova_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url("../fonts/futurapt-heavy.eot") format('eot'),
+    url("../fonts/futurapt-heavy.ttf") format('ttf'),
+    url("../fonts/futurapt-heavy.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.content-box-component {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #464f54;
+    color: #000000;
+    font-family: Georgia, serif;
+}
+
+.article {
+    max-width: 1060px;
+    background-color: #ffffff;
+    margin: 150px auto 10px;
+    padding: 200px 125px 10px;
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+
+.author {
+    font-family: "Proxima nova", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #b4b4b4;
+    letter-spacing: 7px;
+}
+
+.title {
+    font-size: 7.8rem;
+    line-height: 1;
+    font-family: 'Futura PT Heavy', sans-serif;
+    text-transform: uppercase;
+    margin: 40px 0 20px;
+    color: #2a2a2a;
+}
+
+.subtitle {
+    color: #8f8f8f;
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1;
+    margin-bottom: 55px;
+}
+
+.btn-group {
+    background-color: #fbc02d;
+    box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+    width: 70%;
+    text-align: left;
+    margin: 0 0 0 37%;
+    padding: 20px 0 20px 40px;
+    overflow: hidden;
+}
+
+.input-editing {
+    background-color: #181818;
+    box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+    width: 90%;
+    margin-left: 30%;
+    padding: 60px;
+    padding-right: 0;
+}
+
+.toolbar-editor {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 47px
+}
+
+.input-editing p {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.8rem;
+    margin: 0;
+}
+
